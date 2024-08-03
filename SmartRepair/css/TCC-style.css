@@ -1,0 +1,34 @@
+#splash {
+    background-image: linear-gradient(to bottom, rgb(54, 54, 54),rgb(204, 204, 204));
+}
+
+#splash img {
+    display: flex;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    height: 350px;
+    width: 500px;
+}
+
+.TCCTop , .TCCBottom {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(104, 0, 0));
+}
+
+button {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(168, 0, 0));
+    color: red;
+    border: 2px white solid;
+    border-radius: 0%;
+    margin-top: auto;
+    padding: 50px;
+    font-weight: bold;
+    cursor: help;
+    margin-bottom: 15px;
+    font-size: 30px;
+}

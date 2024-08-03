@@ -1,0 +1,95 @@
+.container {
+    height: auto;
+    display: flex;
+    margin-left: 0%;
+}
+
+.equipment {
+    margin: 25px;
+    height: 600px;
+    text-align: center;
+    max-width: 20%;
+    min-width: auto;
+    background-color: white;
+    border: 3px solid darkorange;
+    animation-name: testinglost;
+    animation-duration: 2s;    
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.equipment img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.equipment:hover {
+    animation-name: testing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.EMSFlash {
+    background-color: red;
+    animation-name: flasher;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    text-align: center;
+    color: whitesmoke;
+}
+
+@keyframes flasher {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes testing {
+    from {
+        height: 600px;
+    }
+    to {
+        height: 700px;
+    }
+}
+
+@keyframes testinglost {
+    from {
+        height: 700px;
+    }
+    to {
+        height: 600px;
+    }
+}
+
+details summary {
+    font-weight: bolder;
+    text-align:center;
+    height: 30px;
+    cursor: pointer;
+}
+
+#Default {
+    background-image: linear-gradient(to bottom, rgb(167, 167, 167),rgba(255, 0, 0, 0));
+}
+
+#Landscape {
+    background-image: linear-gradient(to bottom, rgb(29, 104, 0),rgba(255, 0, 0, 0));
+}
+
+#Roadwork {
+    background-image: linear-gradient(to bottom, rgb(255, 238, 0),rgba(255, 0, 0, 0));
+}
+
+#Emergency {
+    background-image: linear-gradient(to bottom, rgb(38, 0, 255),rgba(255, 0, 0, 0));
+    color:white;
+}

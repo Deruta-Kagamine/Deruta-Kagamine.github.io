@@ -1,0 +1,17 @@
+#NYResource { 
+    color: blue;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#NYResource:visited {
+    color: purple;
+}
+
+#NYResource:hover {
+    color: cyan;
+}
+
+#NYResource:active {
+    color: black;
+}

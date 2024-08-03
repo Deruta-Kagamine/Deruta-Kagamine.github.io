@@ -1,0 +1,47 @@
+#Staffing {
+    border: 2px black solid;
+    max-width: 20%;
+    max-height: 20%;
+    width: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#Staffing img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px orangered solid;
+}
+
+#Staffing p, #Staffing h2 {
+    margin: 5px;
+}
+
+.StaffLine {
+    display: flex;
+}
+
+/* Staff Colouring */
+
+.StaffHL {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(255, 255, 255));
+}
+
+.StaffAdmin {
+    background-image: linear-gradient(to bottom, rgb(212, 156, 0),rgb(255, 255, 255));
+}
+
+.StaffTL {
+    background-image: linear-gradient(to bottom, rgb(0, 47, 255),rgb(255, 255, 255));
+}
+
+.StaffAM {
+    background-image: linear-gradient(to bottom, rgb(6, 180, 0),rgb(255, 255, 255));
+}
+
+.StaffTCC {
+    background-image: linear-gradient(to bottom, rgb(194, 0, 0),rgb(24, 24, 24));
+}
