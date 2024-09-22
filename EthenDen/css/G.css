@@ -1,0 +1,15 @@
+nav {
+    display: inline;
+}
+
+.leftSide {
+    float: left;
+}
+
+.centerSide {
+    float: center;
+}
+
+.rightSide {
+    float: rigth;
+}
